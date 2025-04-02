@@ -19,7 +19,7 @@ const mockUser = {
   posts: [], // Posts would be fetched separately
   followers: [],
   following: [],
-};
+}; 
 
 const mockPosts = [
   { _id: 'post1', user: { _id: 'user456', username: 'another_user', profilePic: 'https://placehold.co/32x32/EFEFEF/grey?text=AU'}, imageUrl: 'https://placehold.co/600x600/cccccc/grey?text=Post+1', caption: 'Beautiful scenery!', likes: ['user123'], comments: [{ _id: 'comment1', user: { _id: 'user123', username: 'sample_user'}, text: 'Nice shot!', createdAt: new Date(Date.now() - 2 * 60 * 60 * 1000) }], createdAt: new Date(Date.now() - 2 * 60 * 60 * 1000) },
